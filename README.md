@@ -4,6 +4,8 @@ This package can be used to create [Minigun](http://minigun.io) scenarios from a
 
 1. Start Minigun Recorder with `sh minigun_recorder.sh`
 2. Set your browser's proxy to `http://localhost:10888`
+    - Any extensions (like Postman) should pick up that setting as well
+    - If you are using curl or Node.js-based scripts, you can set the proxy with `HTTP_PROXY` environment var 
 3. Interact with a web application using your browser
 4. Stop Minigun Recorder and use the test script it has created from the
 browser session
