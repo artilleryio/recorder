@@ -8,6 +8,14 @@ This package can be used to create [Minigun](http://minigun.io) scenarios from a
 4. Stop Minigun Recorder and use the test script it has created from the
 browser session
 
+## Configuration
+
+By default, HTTP requests to all hosts are captured. To save requests only to one domain (i.e. the application you're testing), run the proxy with
+
+```
+TARGET=myapp.com ./minigun_recorder.sh
+```
+
 ## Installation
 
 The recorder relies on [mitmproxy](https://mitmproxy.org).
