@@ -14,3 +14,7 @@ The recorder relies on [mitmproxy](https://mitmproxy.org).
 
 1. [Install mitmproxy](http://docs.mitmproxy.org/en/stable/install.html)
 2. [Configure certificates](http://docs.mitmproxy.org/en/stable/certinstall.html#installing-the-mitmproxy-ca-certificate-manually) if you want to record HTTPS-based sessions
+
+## License
+
+[ISC](https://en.wikipedia.org/wiki/ISC_license) (same as Minigun)
