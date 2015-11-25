@@ -2,7 +2,7 @@
 
 set -eu
 
-if [ -z $(which hmitmdump) ]; then
+if [ -z $(which mitmdump) ]; then
   echo "Error: cannot find mitmproxy (http://mitmproxy.org)"
   echo "  On Linux: pip install mitmproxy"
   echo "  On OSX: brew install mitmproxy"
